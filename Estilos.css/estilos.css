@@ -144,3 +144,40 @@ input:checked + .slider:before {
 .DivSwitch img {
   height: 40px;
 }
+.Saldo {
+  display: flex;
+  justify-content: center;
+}
+.SaldoPersonal {
+  display: flex;
+  justify-content: center;
+  margin-right: 25px;
+  color: #1a2f8a;
+}
+.SaldoBusiness {
+  display: flex;
+  justify-content: center;
+  margin-left: 25px;
+  color: #2196f3;
+}
+.Personal {
+  background-color: #1a2f8a;
+  color: white;
+  height: 30px;
+  border-radius: 5px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+}
+.Business {
+  background-color: #2196f3;
+  color: white;
+  height: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+}
