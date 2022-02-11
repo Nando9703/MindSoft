@@ -53,7 +53,7 @@
         </div><br><br>
         <div class="DivSwitch">
             <img style="padding-right: 5px;" src="../Imagenes/ojo.png" alt="">
-            <label class="switch">
+            <label  onclick="ocultarSaldo()" class="switch">
                 <input type="checkbox">
                 <span class="slider"></span>
             </label>
@@ -64,7 +64,7 @@
                 <a class="Personal"> PERSONAL</a>
                 <a class="Business">BUSINESS</a>                    
             </div>
-            <div class="Saldo">
+            <div id="Saldo" class="SaldoPesos">
                 <p class="SaldoPersonal">$ 3`578.032</p>                    
                 <p class="SaldoBusiness">$71`902.877</p>                    
             </div>
@@ -72,4 +72,5 @@
     </div>
     
 </body>
+<script src="../js/inicio.js"></script>
 </html>

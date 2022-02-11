@@ -148,6 +148,10 @@ input:checked + .slider:before {
   display: flex;
   justify-content: center;
 }
+.SaldoPesos {
+  display: flex;
+  justify-content: center;
+}
 .SaldoPersonal {
   display: flex;
   justify-content: center;
