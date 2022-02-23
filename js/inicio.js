@@ -1,13 +1,13 @@
 var VerSaldo = document.getElementById("Saldo");
-var Num = "1";
-
+VerSaldo.style.visibility = "hidden";
+console.log(VerSaldo.style.visibility)
 function ocultarSaldo() {
-    console.log(Num)
-    if (Num === "1") {
-        VerSaldo.style.display = "none"
-        Num = "0";
+    if (VerSaldo.style.visibility == "hidden") {
+        VerSaldo.style.visibility = "visible" 
+        console.log(VerSaldo.style.visibility)
+        console.log("Aca estoy llegando")
     }else{
-        VerSaldo.style.display = "block"        
-        Num = "1";
+        // VerSaldo.style.visibility = "hidden"             
+        // console.log("Aca estoy")
     }
 }
