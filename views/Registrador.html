@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Estilos.css/estilos.css">
+    <title>Inicio</title>
+</head>
+<body>
+    <div class="DatosU">
+        <div>
+            <h1 style="display: flex;justify-content: center;align-items: center;color:#2E415D">Menú</h1>
+        </div>
+        <div class="Menu">
+            <img class="Img-Menu" src="../Imagenes/aprobado.png" alt="">
+            <p style="background-color: #002258;color: white;display: flex;justify-content: center;">Registrador</p>
+            <div class="DivSwitch">                
+                <label  onclick="ocultarSaldo()" class="switch">
+                    <input type="checkbox">
+                    <span class="slider-Menu"></span>
+                </label>
+            </div>
+        </div>
+        <div class="Menu-Registrador">
+            <p style="background-color: #F2F2F2;color: black;display: flex;justify-content: center;border:solid 2px;">Ganancias</p>
+            <p style="background-color: #eeb0b0;color: black;display: flex;justify-content: center;border:solid 2px;">Gastos</p>
+        </div>
+        <div class="Menu-Registrador">
+            <input type="date" style="background-color: #F2F2F2;color: black;display: flex;justify-content: center;border:solid 2px;height: 25px;width: 65%; border-radius: 5px;">
+        </div>
+        <div class="Menu-Registrador">
+            <select style="background-color: #F2F2F2;text-align: center; color: black;display: flex;justify-content: center;border:solid 2px;height: 28px;width: 69%; border-radius: 5px;">
+            <option value="vacio">CUENTA</option>
+            </select>
+        </div>
+        <div class="Menu-Registrador">
+            <select style="background-color: #F2F2F2;text-align: center; color: black;display: flex;justify-content: center;border:solid 2px;height: 28px;width: 69%; border-radius: 5px;">
+            <option value="vacio">SUBCUENTA</option>
+            </select>
+        </div>
+        <div class="Menu-Registrador">
+            <input type="number" placeholder="VALOR UNITARIO" style="text-align: center;background-color: #F2F2F2;color: black;display: flex;justify-content: center;border:solid 2px;height: 25px;width: 66%; border-radius: 5px;"></input>
+        </div>
+        <div class="Menu-Registrador">
+            <select style="background-color: #F2F2F2;text-align: center; color: black;display: flex;justify-content: center;border:solid 2px;height: 28px;width: 69%; border-radius: 5px;">
+                <option value="vacio">UNIDADES</option>
+            </select>
+        </div>
+        <div class="Menu-Registrador">
+            <input type="number" placeholder="VALOR TOTAL" style="text-align: center;background-color: #F2F2F2;color: black;display: flex;justify-content: center;border:solid 2px;height: 25px;width: 66%; border-radius: 5px;"></input>
+        </div>
+        <div class="Menu-Registrador">
+            <input type="text" placeholder="NOTA" style="text-align: center;background-color: #F2F2F2;color: black;display: flex;justify-content: center;border:solid 2px;height: 25px;width: 66%; border-radius: 5px;"></input>
+        </div>
+        <div class="Menu-Registrador">
+            <a type="text" placeholder="NOTA" style="text-align: center; background-color: #830202;color: white;display: flex;justify-content: center;align-items: center; border:solid 2px;height: 29px;width: 66%; border-radius: 5px;">REGISTRAR</a>
+        </div>
+    </div>
+    
+</body>
+<script src="../js/inicio.js"></script>
+</html>
