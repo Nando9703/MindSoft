@@ -189,6 +189,7 @@ input:checked + .slider:before {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 8px;
 }
 .Menu p{
   display: flex;
