@@ -191,8 +191,15 @@ input:checked + .slider:before {
   align-items: center;
 }
 .Menu p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0%;
   margin-left: 15px;
   margin-right:15px;
+  height: 28px;
+  width: 100px;
+  border-radius: 5px;
 }
 .Img-Menu{
   width: 35px;
